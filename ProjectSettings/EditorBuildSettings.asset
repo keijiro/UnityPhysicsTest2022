@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Test1.unity
+    path: Assets/ContactEvent/ContactEvent1.unity
     guid: e4d9375492b70493586de499b8e5c23d
   - enabled: 1
-    path: Assets/Test2.unity
+    path: Assets/ContactEvent/ContactEvent2.unity
     guid: a919e487eda504cc4a295113e3ec16d9
   m_configObjects: {}
