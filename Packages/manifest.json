@@ -1,5 +1,15 @@
 {
   "dependencies": {
+    "jp.keijiro.metamesh": "1.1.1",
     "com.unity.modules.physics": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Keijiro",
+      "url": "https://registry.npmjs.com",
+      "scopes": [
+        "jp.keijiro"
+      ]
+    }
+  ]
 }
