@@ -15,12 +15,12 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Item
+  - Wall
+  - Walkable Wall
+  - Force Field
   - 
   - 
   - 
