@@ -8,7 +8,7 @@ sealed class BallLauncher : MonoBehaviour
     void Launch()
     {
         var rb = Instantiate(_prefab, transform.position, transform.rotation);
-        rb.velocity = new Vector3(0, 0, _speed);
+        rb.linearVelocity = new Vector3(0, 0, _speed);
     }
 
     void Update()

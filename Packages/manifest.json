@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "com.unity.recorder": "4.0.0",
-    "com.unity.render-pipelines.universal": "14.0.6",
-    "jp.keijiro.metamesh": "1.1.1",
+    "com.unity.recorder": "5.1.2",
+    "com.unity.render-pipelines.universal": "17.0.3",
+    "jp.keijiro.metamesh": "1.2.0",
     "jp.keijiro.metatex": "1.0.4",
     "com.unity.modules.physics": "1.0.0"
   },

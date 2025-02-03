@@ -19,12 +19,12 @@ sealed class ContactPointMarkerWithEvent : MonoBehaviour
     {
         foreach (var header in headers)
         {
-            for (var i = 0; i < header.PairCount; i++)
+            for (var i = 0; i < header.pairCount; i++)
             {
                 var pair = header.GetContactPair(i);
-                for (var j = 0; j < pair.ContactCount; j++)
+                for (var j = 0; j < pair.contactCount; j++)
                 {
-                    _matrices.Add(Matrix4x4.Translate(pair.GetContactPoint(j).Position));
+                    _matrices.Add(Matrix4x4.Translate(pair.GetContactPoint(j).position));
                 }
             }
         }
